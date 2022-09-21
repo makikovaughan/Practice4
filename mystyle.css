@@ -30,13 +30,13 @@ table, th, td{
     border: 1px solid black;
     margin-left: auto; 
     margin-right: auto;
-    font-size: 200%;
-    width: 60%;
+    font-size: 150%;
     border-collapse: collapse;
+    text-align:center;
 }
 
-th{
-    text-align:center;
+table{
+    width: 90%;
 }
 
 p{
@@ -45,3 +45,24 @@ p{
     margin-right: auto;
     text-align:center;
 }
+* {
+    box-sizing: border-box;
+  }
+
+  
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  figcaption{
+    text-align:center;
+  }

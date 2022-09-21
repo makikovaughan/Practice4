@@ -9,21 +9,41 @@
 		<header>
 			<h1>Makiko's First Web Page</h1>
 			<navi>
-				<a href="#aboutme">About</a> | <a>Travel</a> | <a>Contact</a>
+				<a href="#aboutme">About</a> | <a href="#travel">Travel</a> | <a>Contact</a>
 			</navi>
 		</header>
 		<main>
 			<section id="aboutme">
 				<h2>About Me</h2>
-				<p>Hello, My Name is Makiko. I came here to go to college in the USA and have attended these schools in the USA.</p>
-				<table>
-					<thead>
-						<tr>
-							<th>Name of College</th>
-							<th>The Year Attended</th>	
-						</tr>
-						
-					</thead>
+				<p>Hello, My Name is Makiko. I am originally from Japan. I came here to go to college in the USA and have attended these schools in the USA.</p>
+				<figure>
+					<div class="row">
+						<div class="column">
+							<img src="./picture/makiko1.jpeg" class="center" alt="Makiko in Kyoto" height="800" width="300" style="width:100%"/>
+						</div>
+						<div class="column" >
+							<img src="./picture/inari.jpeg" class="center" alt="Fushimi Inari in Kyoto" height="800" width="300" style="width:100%"/>
+						</div>
+					</div>
+					<figcaption>This picture was taken in Kyoto, Japan in 2019.</figcaption>
+				</figure>
+				<br><br>
+				<table> <!--This is the list of my schools -->
+					<tr>
+						<th scope="col">Name of College</th>
+						<th scope="col">Degree</th>	
+						<th scope="col">The Year Attended</th>
+					</tr>
+					<tr>
+						<td>Keller Graduate School of Management</td>
+						<td>Master of Information Systems Management</td>
+						<td>November, 2003 - April, 2006</td>
+					</tr>
+					<tr>
+						<td>Georgia Institute of Techonology</td>
+						<td>Bachelor of Science in Computer Science</td>
+						<td>August, 1998 - August, 2001</td>
+					</tr>
 				</table>
 			</section>
 			<section id="travel">
